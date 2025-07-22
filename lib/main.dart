@@ -29,7 +29,7 @@ class HomeActivity extends StatelessWidget {
           Container(height: 150, width: 150, color: Colors.pink),
           Container(
             height: 100,
-            width: 100,
+            width: 150,
             color: Colors.yellow,
             child: Text(
               "data",
