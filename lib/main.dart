@@ -42,6 +42,17 @@ class HomeActivity extends StatelessWidget {
             ),
             alignment: Alignment.center,
           ),
+          OutlinedButton(onPressed: (){
+            print("Outlined Button Clicked Successfully");
+          },
+
+            style: OutlinedButton.styleFrom(
+              backgroundColor: Colors.green,
+              side: BorderSide(color: Colors.black,width: 2),
+              shape: CircleBorder(),
+
+            ),
+            child: Icon(Icons.accessibility_new_rounded),),
         ],
       ),
 
