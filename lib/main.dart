@@ -25,7 +25,7 @@ class HomeActivity extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
+      
           children: [
             ElevatedButton(
               onPressed: () {
@@ -123,7 +123,23 @@ class HomeActivity extends StatelessWidget {
                     shape: CircleBorder(),
 
                 ),
-                child: Icon(Icons.accessibility_new_rounded),)
+                child: Icon(Icons.accessibility_new_rounded),),
+            
+
+   InkWell(
+     onTap: (){
+       print("InkWell Clicked Successfully");
+     },
+     onDoubleTap: (){
+       print("InkWell Double Clicked Successfully");
+     },
+  onLongPress: (){
+       print("InkWell Long Clicked Successfully");
+  },
+     child: Text("data"),
+   )
+
+            
           ],
         ),
       ),
