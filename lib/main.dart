@@ -27,6 +27,7 @@ class HomeActivity extends StatelessWidget {
         children: [
           Container(height: 200, width: 200, color: Colors.red),
           Container(height: 150, width: 150, color: Colors.pink),
+          Container(height: 150, width: 150, color: Colors.pink),
           Container(
             height: 100,
             width: 150,
