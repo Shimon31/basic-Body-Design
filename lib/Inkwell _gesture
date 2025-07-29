@@ -1,0 +1,13 @@
+
+            InkWell(
+              onTap: () {
+                print("InkWell Clicked Successfully");
+              },
+              onDoubleTap: () {
+                print("InkWell Double Clicked Successfully");
+              },
+              onLongPress: () {
+                print("InkWell Long Clicked Successfully");
+              },
+              child: Text("data"),
+            ),
