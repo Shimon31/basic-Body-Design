@@ -1,8 +1,0 @@
- floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Icon(Icons.add),
-        shape: CircleBorder(),
-        foregroundColor: Colors.white,
-        backgroundColor: Colors.green,
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
