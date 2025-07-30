@@ -1,0 +1,39 @@
+SingleChildScrollView(
+            child: Column(
+              children: [
+                Container(color: Colors.red, height: 200),
+                Container(color: Colors.yellow, height: 200),
+                Container(color: Colors.green, height: 200),
+
+                Container(
+                  height: 400,
+                  child: ListView(
+                    shrinkWrap: true,
+                    // scrollDirection: Axis.horizontal,
+                    children: [
+                      ListTile(title: Text("item 1")),
+                      ListTile(title: Text("item 2")),
+                      ListTile(title: Text("item 3")),
+                      ListTile(title: Text("item 4")),
+                      ListTile(title: Text("item 5")),
+                      ListTile(title: Text("item 5")),
+
+                      // Container(height: 200, color: Colors.red),
+                      // Container(height: 200, color: Colors.green),
+                      // Container(height: 200, color: Colors.blueGrey),
+                      // Container(height: 200, color: Colors.black),
+                      // Container(height: 200, color: Colors.yellow),
+                      // Container(height: 200, color: Colors.blue),
+
+                      // Container(width: 100, color: Colors.red),
+                      // Container(width: 100, color: Colors.green),
+                      // Container(width: 100, color: Colors.blueGrey),
+                      // Container(width: 100, color: Colors.black),
+                      // Container(width: 100, color: Colors.yellow),
+                      // Container(width: 100, color: Colors.blue),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
